@@ -21,30 +21,27 @@
 title: Blog do Kleyton
 email: kleyton.sartori.leite@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Este site foi desenvolvido utilizando Jekyll, e visa distribuir ao público, sobre o que 
+  Este site foi desenvolvido utilizando Jekyll, e visa distribuir ao público sobre o que 
   Kleyton Sartori está envolvido. Atualmente sou desenvolvedor na Apollo Solutions Dev, 
-  Professor de Informática na Escola Técnica Estadual de São Paulo (ETEC Adolpho Berezin) e Tesoureiro do Movimento 
-  Artístico Cultural de Mongaguá - MACM.
+  Professor de Informática na ETEC Adolpho Berezin e envolvido no MACM, além de um grande entusiasta de ciclismo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kleyton67
 location: Mongaguá-SP
-lang: pt-br
+lang: pt
 paginate: 10
-date_format: "%-d, %b, %Y"
+date_format: "%-d, %m, %Y"
 subscribe: True
 math: True
 toc: True
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-theme-hamilton
 
 # remote_theme: ngzhio/jekyll-theme-hamilton
 
@@ -67,3 +64,28 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+paginate: 10
+
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+
+# Jekyll SEO Tag (Optional)
+# =========================
+logo: logo.png
+social:
+  name: Kleyton Sartori
+  links: 
+    - https://github.com/kleyton67
